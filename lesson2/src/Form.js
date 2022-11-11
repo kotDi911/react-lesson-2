@@ -10,7 +10,7 @@ export default class Form extends React.Component {
 
     onSubmit = (event) =>{
         event.preventDefault();
-        event.target.reset();
+        //event.target.reset();
         const reg = /[A-z]{3}/;
         let name = this.state.name;
         let surname = this.state.surname;
